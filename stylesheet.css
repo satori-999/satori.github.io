@@ -1,271 +1,110 @@
-* {
-  ボックスサイズ: ボーダーボックス;
+body {
+  font-family: "Avenir Next";
 }
 
-体 {
-  マージン: 0;
-  font-family: "ヒラギノ角ゴシック ProN";
+li {
+  list-style: none;
 }
 
-{
-  テキスト装飾: なし;
+.header {
+  background-color: #26d0c9;
+  color: #fff;
+  height: 90px;
 }
 
-。容器 {
-  幅: 100%;
-  パディング: 0 15px;
-  マージン: 0 自動;
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
 }
 
-.トップラッパー {
-  パディング: 180px 0 100px 0;
-  背景画像: url(top.png);
-  背景サイズ: カバー;
-  色: 白;
-  テキスト整列: 中央;
+.header-list li {
+  float: left;
+  padding: 33px 20px;
 }
 
-.トップラッパー h1 {
-  不透明度: 0.7;
-  フォントサイズ: 45px;
-  文字間隔: 5px;
+.main {
+  padding: 100px 80px;
 }
 
-.トップラッパー p {
-  不透明度: 0.7;
-  フォントサイズ: 16px;
-  margin-bottom: 40px;
+.copy-container h1 {
+  font-size: 140px;
 }
 
-.btn-ラッパー {
-  テキスト整列: 中央;
+.copy-container h2 {
+  font-size: 60px;
 }
 
-.btn-wrapper p {
-  margin-bottom: 20px;
+.copy-container span {
+  color: #ff4a4a;
 }
 
-。サインアップ {
-  背景色: #239b76;
+.contents {
+  height: 500px;
+  margin-top: 100px;
 }
 
-。フェイスブック {
-  背景色: #3b5998;
-  右マージン: 10px;
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
 }
 
-。ツイッター {
-  背景色: #55acee;
+.contents-item {
+  float: left;
+  margin-right: 40px;
 }
 
-.btn {
-  パディング: 8px 24px;
-  色: 白;
-  表示: インラインブロック;
-  不透明度: 0.8;
-  ボーダー半径: 4px;
-  テキスト整列: 中央;
+.contents-item p {
+  font-size: 24px;
+  margin-top: 30px;
 }
 
-.btn:ホバー {
-  不透明度: 1;
+.contact-form {
+  padding-top: 100px;
 }
 
-.fa {
-  右マージン: 5px;
+/* inputとtextareaのCSSを指定してください */
+input{
+  width:400px;
+  margin-top:10px;
+  margin-bottom:30px;
+  padding:20px;
+  font-size:18px;
+  border:1px solid #dee7ec;
+}
+textarea{
+    width:400px;
+  margin-top:10px;
+  margin-bottom:30px;
+  padding:20px;
+  font-size:18px;
+  border:1px solid #dee7ec;
 }
 
-ヘッダー {
-  高さ: 65px;
-  幅: 100%;
-  背景色: rgba(34,49,52,0.9);
-  位置:固定;
-  上: 0;
-  Z インデックス: 10;
+/* contact-submitのCSSを指定してください */
+.contact-submit{
+  background-color:#dee7ec;
+  color:#889eab;
 }
 
-.ロゴ {
-  幅: 124px;
-  マージントップ: 20px;
+.footer {
+  background-color: #2f5167;
+  color: #fff;
+  height: 120px;
+  padding: 40px;
 }
 
-.header-left {
-  フロート: 左;
+.footer-logo {
+  float: left;
+  font-size: 32px;
 }
 
-.header-right {
-  フロート: 右;
-  マージン右: -25px;
+.footer-list {
+  float: right;
 }
 
-.header-right a {
-  行の高さ: 65px;
-  パディング: 0 25px;
-  色: 白;
-  表示ブロック;
-  フロート: 左;
-  トランジション: すべて 0.5 秒;
-}
-
-.header-right a:hover {
-  背景色: rgba(255,255,255,0.3);
-}
-
-.レッスンラッパー{
-  高さ: 580px;
-  パディングボトム: 80px;
-  パディング左: 5%;
-  右パディング: 5%;
-  背景色: #f7f7f7;
-  テキスト整列: 中央;
-}
-
-.見出し {
-  パディングトップ: 80px;
-  パディングボトム: 50px;
-  色: #5f5d60;
-}
-
-.heading h2 {
-  フォントの太さ: 通常;
-}
-
-。レッスン {
-  フロート: 左;
-  幅: 25%;
-}
-
-.レッスンアイコン {
-  位置: 相対;
-}
-
-.lesson-icon p {
-  位置: 絶対;
-  上: 37%;
-  幅: 100%;
-  色: 白;
-}
-
-.text-contents {
-  幅: 80%;
-  表示: インラインブロック;
-  マージントップ: 15px;
-  フォントサイズ: 13px;
-  色: #b3aeb5;
-}
-
-.見出し h3 {
-  フォントの太さ: 通常;
-}
-
-.メッセージラッパー{
-  border-bottom: 1px ソリッド #eee;
-  パディングボトム: 80px;
-  テキスト整列: 中央;
-}
-
-。メッセージ {
-  パディング: 15px 40px;
-  背景色: #5dca88;
-  カーソル: ポインタ;
-  ボックスの影: 0px 7px #1a7940;
-}
-
-.message:アクティブ {
-  位置: 相対;
-  上: 7px;
-  ボックスの影: なし;
-}
-
-フッター画像 {
-  幅: 125px;
-}
-
-フッター p {
-  色: #b3aeb5;
-  フォントサイズ: 12px;
-}
-
-フッター {
-  パディングトップ: 30px;
-  パディングボトム: 20px;
-}
-
-.メニューアイコン {
-  色: 白;
-  フロート: 右;
-  フォントサイズ: 25px;
-  パディング: 21px 0;
-  表示: なし;
-}
-
-。クリア {
-  クリア: 左;
-}
-
-@media all and (max-width: 1000px) {
-  。レッスン {
-    幅: 50%;
-    margin-bottom: 50px;
-  }
-
-  .レッスンラッパー{
-    高さ: 990px​​;
-  }
-
-  フッター {
-    テキスト整列: 中央;
-  }
-}
-
-@media all and (max-width: 750px) {
-  .トップラッパー h1 {
-    フォントサイズ: 32px;
-  }
-
-  .heading h2 {
-    フォントサイズ: 20px;
-  }
-}
-
-@media all and (max-width: 670px) {
-  .header-right {
-    表示: なし;
-  }
-
-  .メニューアイコン {
-    表示ブロック;
-  }
-
-  .トップラッパー.btn {
-    幅: 100%;
-  }
-
-  。ツイッター {
-    マージントップ: 10px;
-  }
-
-  .トップラッパー {
-    テキスト整列: 左;
-  }
-
-  .トップラッパー h1 {
-    フォントサイズ: 24px;
-  }
-
-  .トップラッパー p {
-    フォントサイズ: 14px;
-  }
-
-  。レッスン {
-    幅: 100%;
-  }
-
-  .レッスンラッパー{
-    高さ: 1700px;
-  }
-
-  .メッセージラッパー.btn {
-    幅: 100%;
-  }
+.footer-list li {
+  padding-bottom: 20px;
 }
